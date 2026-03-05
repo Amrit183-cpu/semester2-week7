@@ -51,7 +51,7 @@ P2
 
 And here's what the resulting image looks like, magnified for clarity:
 
-![](feep.png)
+![](images/feep.png)
 
 ## Setting Up Your Environment
 
@@ -73,7 +73,13 @@ This will allow you to see the actual images instead of just the raw text data.
    reveal some problems.
 
 2. Use GDB and the other tools explored this week to investigate the nature
-   of these problems. Then fix them.
+   of these problems, then fix them.
+
+3. See if there are further improvements that can be made to the code. For
+   example, the way that filenames are read by the application could be
+   improved. Also, the application currently doesn't support the use
+   of comment lines in the header of a PGM file. You could add support for
+   that.
 
 
 [netpbm]: https://en.wikipedia.org/wiki/Netpbm#File_formats
