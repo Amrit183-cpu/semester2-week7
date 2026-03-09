@@ -6,7 +6,7 @@
 #include "logging.h"
 
 
-int* get_values(int argc, char* argv[])
+int* get_values(int argc, char* argv[]) 
 {
     LOG_FMT("get_values(): argc=%d\n", argc);
 
