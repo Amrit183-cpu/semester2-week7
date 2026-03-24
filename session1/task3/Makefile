@@ -1,6 +1,7 @@
 # Task 3 Makefile
+#define NDEBUG
 
-CFLAGS = -DNDEBUG -Wall -Wextra -Werror
+CFLAGS = -DNDEBUG -Wall -Wextra -Werror 
 
 task3: task3.c logging.h
 	gcc $(CFLAGS) -o task3 task3.c

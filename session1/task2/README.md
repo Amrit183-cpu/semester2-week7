@@ -21,17 +21,19 @@
 
 4. Run the program to verify that behaviour is unchanged,
    **then remove `a.out` once again**.
+   Runs like normal?
 
 5. Recompile `undefined.c` using the `-Wall` and `-Werror` options. Does the
    compiler output change in any way? Is an executable generated?
-   No, compilation was terminated
+   using -Werror does nothing
 
 ## `double_free.c`
 
 1. Compile `double_free.c` using the `-Wall`, `-Wextra` and `-Werror`
    compiler options. Do you see any messages from the compiler?
    Does compilation succeed?
-   Only Wall works, but comes with a warning
+   Wall works, but comes with a warning
+   Wextra and Werror work with no warning
 
 2. Run the compiled program. What happens? Do you get any clues about what
    has gone wrong?
