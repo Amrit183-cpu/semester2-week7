@@ -132,6 +132,9 @@ where possible.
    of program output with the contents of `marks.csv`. Can you see another
    problem here?
 
+   Another problem is that for people who reach 70 is only a pass, but docstring says that mark of >=70
+   I have corrected the code
+
 ## Third & Fourth Bugs
 
 The docstring of `grade()` is useful for humans, but **a better way of
@@ -141,6 +144,8 @@ We've provided these in `test_grade.py`.
 
 1. Examine the code in `test_grade.py`, then run this program. One of the
    assertions should fail.
+
+   The 'assert grade(70) == distinction' failed
 
 2. The information from the failed assertion should be enough for you
    to quickly identify which part of `grade()` is causing the problem,
